@@ -28,5 +28,5 @@ BIN=/$objtype/bin
 </sys/src/cmd/mkone
 
 run: 
-	cp $O.out /$cputype/platoterm
-	platoterm
+	cp $O.out /$cputype/$TARG
+	$TARG -h irata.online -p 8005
